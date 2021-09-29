@@ -1,22 +1,19 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "meta": {
-    "theme": "elegant"
-  },
   "basics": {
     "name": "Anthony Dellavecchia",
     "label": "Software Developer",
     "image": "",
-    "email": "anthony.dellavecchia.tech@mail.com",
+    "email": "anthony.dellavecchia.tech@gmail.com",
     "phone": "(940) 242-1288",
     "url": "https://www.anthonydellavecchia.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "summary": "This is a test",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "75080",
+      "city": "Richardson",
       "countryCode": "US",
-      "region": "California"
+      "region": "Texas"
     },
     "profiles": [
       {
@@ -157,8 +154,9 @@
     }
   ],
   "meta": {
+    "theme": "stackoverflow",
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2021-09-28T15:53:00"
   }
 }
