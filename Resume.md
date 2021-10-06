@@ -15,7 +15,7 @@
 
 * Quality: Provide guidance and leadership to implement best practices and tools for optimizing team productivity, spearhead document creation of solution architecture, and create dashboards & reports for management.
 
-    * Java, Spring Boot, PolicyCenter, Maven, Postgres, JUnit
+    * Java, Spring Boot, PolicyCenter, Maven, Postgres, JUnit, Git
     * Gitlab CI/CD, Jenkins, Karate Tests
 
 ---
@@ -55,7 +55,7 @@
     - Removing redundancy (steps and jobs), performing a shallow clone instead of a full clone (which basically just clones the changes you made rather than all of the commit history), reduce mutation testing time by implementing incremental mutation analysis that only checks for new code, running stages in parallel/asyncronously instead of step-by-step, & caching data of dependencies instead of downloading them each time.
 4. Chaos Engineering for Spring Boot is a dependency that adds Spring Boot Actuator endpoints to your application. All you have to do is hit these endpoints at runtime to run assaults. The three main assaults are latency, exception, and appkiller. Latency adds a specified amount of latency to a request, so you can see how your service responds (i.e will it timeout). Exception assaults determine what happens incase of specified exceptions (i.e what happens if a database connection is down and throws an exception). AppKiller assaults shut down the application to see how it responds (i.e will it startup again).
 5. We use a framework called CodeceptJS to write scenarios in Gherkin language, an easy to read language for everyone, to perform end to end user interface tests that automatically flow through a workflow to validate business scenarios.
-6. Created documentation for our web services as well as other solutions. Implemented best practices for commit messages, semantic versioning, dependency updater, code formatting, logging framework (using SLF4J to log not only a message, but also metadata related to input parameters), team dashboards and metrics, etc.
+6. Created documentation for our web services as well as other solutions. Implemented best practices for commit messages, semantic versioning, dependency updater, code formatting, logging framework (using SLF4J to log not only a message, but also metadata related to input parameters), team dashboards and metrics, etc. These dashboards identified the health of our services and downstream services and alerted us if they are down.
 
 ---
 
@@ -112,13 +112,43 @@
     Number of Policies:     3.8 million (170,00 in Ohio)
 
 </details>
+
 ---
 
 <details>
   <summary>Bank of America</summary>
 
+* Frontend: Develop a frontend web application written in TypeScript, which manages customer banking appointments and 20,000+ associate schedules.
+
+* Troubleshooting: Collaborate with stakeholders and product teams to implement business requirements and resolve technical defects and bugs.
+
+* Metrics: Perform analysis on internal hiring data and create weekly reports for senior management to build teams based on skillsets and experience.
+
+    * JavaScript, CSS, HTML, SVN, MVC Architecture
+
+---
+
+### List of involvements:
+1. Banking By Appointment
+2. Defects
+3. Reporting
+
+### What do these products do?
+1. Banking By Appointment was our web application under the Financial Technology Center. It is a modular administrative application for associates to manage banking appointments and schedules.
+2. Fix defects and bugs that we missed during development.
+3. Create metrics and reports for FTC hiring.
+
+### Why is it needed?
+1. Banking By Appointment is needed in each financial center to manage associates and customer relationships. It is used by over 20,000 associates throughout 4,600 financial centers.
+2. Fix bugs so that the system works as expected.
+3. Management needed a way to view hiring based on skills and job roles.
+### How do they work at a high level?
+1. There are 3 tabs on the application. It can be consumed by other modules, as a widget for other applications. 1st tab shows customer appointments for that day. It is a table with rows that show customers assigned to associates. 2nd tab shows upcoming appointments in the same format (for future days). 3rd tab shows appointments and walk-ins for that day. It is an overview page. The application code is written with Typescript, LESS, and Handlebars. Typescript is an extension of Javascript that adds syntax checks, auto-complete, etc. LESS is CSS but adds variables and functions. Handlebars allows expressions into your HTML so you can add javascript easily. It follows model-view-controller architecture. Model handles data, View displays the data, Controller controls flow and updates the View.
+2. Get a defect from the test team. Work with them to understand the problem. Potentially speak with stakeholders to see the desired result. Then debug the issue and push the fix.
+3. I would create weekly reports and do analytics on hiring data to present to management. They would use these reports to hire developers on their teams. The data came from Microsoft Access database, and I would import it and filter based on various roles.
 
 </details>
+
 ---
 
 <details>
