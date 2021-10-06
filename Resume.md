@@ -1,22 +1,19 @@
 # State Farm
 
-* Backend: Develop, test, deploy, and maintain business critical RESTful API's using Java & Spring Boot framework that serves data and handles over 100,000 requests to our insurance policy platform, to prevent millions in monetary loss.
-    * Java, Spring Boot, Maven, Postgres, JUnit
+* Backend: Develop, test, deploy, and maintain business-critical RESTful APIs using Java & Spring Boot framework that serves data and handles 100,000+ requests to our insurance policy platform, to prevent millions in monetary loss.
 
-* Integration Layer: Design and implement a microservice integration layer using Java & Spring Boot to abstract components between our core application and outbound calls to high-impact business data which help calculate insurance rates.
-    * Java, Spring Boot, PolicyCenter, Maven, JUnit
+* Integration Layer: Design and implement a microservice integration layer utilizing Java & Spring Boot to abstract components between our core application and outbound calls to high-impact business data, which help calculate insurance rates.
 
-* DevOps: Improve software release efficiency up to 50%, by creating continuous integration and deployment pipelines to automatically build, scan, test, and deploy software, which reduces the time-to-market.
+* DevOps: Optimize software release efficiency up to 50% by creating CI/CD pipelines that automatically build, scan, test, and deploy software, which improves time-to-market.
+
+* Chaos Engineering: Reduce web service unplanned downtime by implementing Chaos Engineering tools to determine potential failure points, which saves time and costs.
+
+* Automation: Perform BDD using Agile methodology by writing automated E2E UI tests in CodeceptJS and Gherkin to quickly and effectively validate business scenarios.
+
+    * Java, Spring Boot, PolicyCenter, Maven, Postgres, JUnit
     * Gitlab CI/CD, Jenkins, Karate Tests
 
-* Automation: 
-
-
-    Implement chaos engineering pipelines which introduce chaos into our environments so that we can prepare for them in production.
-
     Research and implement new tools and best practices within our Products so that we are cutting edge and cool.
-
-    Set up Continuous Integration pipelines that perform scans, run unit tests, 
 
     Set up a logging framework which uses SLF4J to log not only a message, but also meta data related to input parameters.
 
@@ -24,20 +21,24 @@
 ### List of involvements:
 1. Inflation Index
 2. Consumer Reports
-3. CI Pipeline
+3. CI/CD Pipeline
 4. Chaos Engineering
 5. Automation Testing
-6. Logging Framework
+6. Logging Framework & Best Practices
 
 ### What do these products do?
 1. Inflation Index is a REST service which gets the inflated Coverage amount. That amount usually increases over time due to inflation.
 2. Consumer Reports is an Integration layer and REST service which orders business-critical consumer reports.
 3. CI/CD pipeline is how we integrate and deploy our code into various environments.
+4. Chaos engineering tools are used to perform experiments on the system in order to adapt and build confidence to unexpected conditions.
+5. Automation testing is used to automated workflows in our application with randomly generated data, so we can validate business scenarios.
 
 ### Why is it needed?
 1. Inflation Index is needed during the Renter's insurance quote process to retrieve the correct coverage amount, based on date. As a business, we don't want that amount to be static, otherwise it will lose value over time.
 2. Consumer Reports are needed during the Renter's insurance quote process to see if the customer has any consumer report (auto, property, policy) history tied to their name. This is one determining factor in how their rates will be calculated.
 3. CI/CD is needed because it automates the build and deploy process so that we don't have to manually do it each time. It also has checks in place, so we know we are deploying good code.
+4. Chaos Engineering helps find unexpected failures before they become system outages. Since many systems are loosly coupled and follow microservice architecture, integrating them is difficult.
+5. Automation testing is needed so that we don't have to manually view various workflows to see if they are passing. Instead, we can create a test that automatically flows through the user interface with generated data, so we can quickly validate scenarios. BDD helps the team work by collaborating with the team before development begins. We look at the requirements and plan out an expected automation test for the scenario. Then we develop the feature code from there. E2E testing is the process of testing an applications workflow from start to finish.
 
 ### How do they work at a high level?
 1. Inflation Index is written in Java and uses Spring Boot framework. We have 2 operations, one GET and one POST. 
@@ -48,6 +49,8 @@
 3. CI Pipeline is created when developers push code into the repository. CD Pipeline is created when code is merged into main/master branch.
     - Below are details for each step. Old CD pipeline took 30 minutes, and I reduced to to 15 minutes by
     - Removing redundancy (steps and jobs), performing a shallow clone instead of a full clone (which basically just clones the changes you made rather than all of the commit history), reduce mutation testing time by implementing incremental mutation analysis that only checks for new code, running stages in parallel/asyncronously instead of step-by-step, & caching data of dependencies instead of downloading them each time.
+4. Chaos Engineering for Spring Boot is a dependency that adds Spring Boot Actuator endpoints to your application. All you have to do is hit these endpoints at runtime to run assaults. The three main assaults are latency, exception, and appkiller. Latency adds a specified amount of latency to a request, so you can see how your service responds (i.e will it timeout). Exception assaults determine what happens incase of specified exceptions (i.e what happens if a database connection is down and throws an exception). AppKiller assaults shut down the application to see how it responds (i.e will it startup again).
+5. We use a framework called CodeceptJS to write scenarios in Gherkin language, an easy to read language for everyone, to perform end to end user interface tests that automatically flow through a workflow to validate business scenarios.
 
 ### OLD CI/CD Time:
 #### CI:
