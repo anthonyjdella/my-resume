@@ -154,4 +154,36 @@
 <details>
   <summary>GM Financial</summary>
 
+* ETL: Build data mapping transformations using ETL tools to extract, transform, and load data for various data warehouse projects.
+
+* Database: Execute SQL search queries to filter data subsets needed for staging and transformation.
+
+* Monitoring: Schedule, monitor, and configure automatic failure notifications for 700+ ETL workflows in production.
+
+    * Informatica PowerCenter, ETL, Data Warehouse, SQL
+
+---
+
+### List of involvements:
+1. ETL Project
+2. Database
+3. Monitor
+
+### What do these products do?
+1. Extract, transform, and load data between a source and target destination.
+2. Write database queries to fetch and filter data.
+3. Monitor workflows in production.
+
+### Why is it needed?
+1. Maybe to convert data, or to change data formats.
+2. So you have the correct subset of data to transform.
+3. To make sure workflows are running smoothly.
+
+### How do they work at a high level?
+1. In Informatica Powercenter, you have a source data table with a certain type of data. You then perform some type of operation on it depending on the need. This might be formatting dates, or changing data types. Then you export it to a new target source which could be a different database. Extract data from a desired subset of data, transform/convert data, create mappings from source to target tables, and load the result data into the target database.
+2. Connect to a database or number of databases and write queries to filter them depending on the requirement.
+3. Informatica Monitoring tool monitors CPU and memory & run-time stats of: workflows, SQL services, data objects, etc. Scheduling is a tool to make certain workflows run at a certain time. For example, maybe a source table has data that gets updated everyday, in order for the target data to be updated, the workflow needs to run. Monitoring tool looks at statistics of workflows to see if they are working properly. Failure notifications can be set up for each job, and if a failure occurs the team will get notified.
+
+---
+
 </details>
