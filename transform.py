@@ -18,20 +18,24 @@ with open('resume-pre-transform.json') as json_data:
     for institution in data['education'][:]:
         if (institution['institution'] == 'The University of Texas at Austin'):
             data['education'].remove(institution)
-        print(institution.pop('courses'))
-        # for course in data['courses'][:]:
-        #     print(course)
+        institution.pop('courses')
 
     for item in data['volunteer'][:]:
         data['volunteer'].remove(item)
 
+    for skill in data['skills'][:]:
+            data['skills'].remove(skill)
+
     for job in reversed(data['work'][:]):
         if (job['name'] not in {'State Farm ®', 
-                                    'Bank of America',
-                                    'GM Financial'}):
+                                'Bank of America',
+                                'GM Financial'}):
             data['work'].remove(job)
+        else:
+            job['location'] = 'Dallas, TX'
 
     startDate = ''
+    highlights = {}
 
     for i, job in enumerate(reversed(data['work'][:])):
         if (i % 2 == 0):
@@ -39,5 +43,30 @@ with open('resume-pre-transform.json') as json_data:
             data['work'].remove(job)
         else:
             job['startDate'] = startDate
+            highlights[i] = job['summary']
+            job['summary'] = ''
+
+    gmf = []
+    boa = []
+    sf  = []
+
+    for highlight in highlights:
+        if (highlight == 1):
+            for i, item in enumerate(highlights[highlight].split('\n\n')):
+                gmf.append(item)
+                data['work'][2].update({'highlights': gmf})
+        elif (highlight == 3):
+            for i, item in enumerate(highlights[highlight].split('\n\n')):
+                boa.append(item)
+                data['work'][1].update({'highlights': boa})
+        elif (highlight == 5):
+            for i, item in enumerate(highlights[highlight].split('\n\n')):
+                sf.append(item)
+                data['work'][0].update({'highlights': sf})
+
+    # Change element name from url to website
+    data['basics']['website'] = data['basics'].pop('url')
+    # Delete website from json
+    data['basics']['profiles'].pop(3)
 
     print(json.dumps(data, indent=4))
