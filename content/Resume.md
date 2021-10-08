@@ -187,3 +187,16 @@
 ---
 
 </details>
+
+---
+
+<details>
+    <summary>Projects</summary>
+
+* Automated Job Scraping: Developed a server-side script with Node.js that automatically searches and scrapes data of job postings from select company websites, then sends a notification to the user.
+
+* Personal Website: Developed a website using a static-site generator, Hugo, and a custom domain name for my personal brand. It's deployed using GitHub Pages and Netlify.
+
+* JSON Resume using LinkedIn: Customized a chrome extension to parse data from a LinkedIn profile, generate a custom JSON file, and build an online resume (hosted on Firebase).
+
+</details>
