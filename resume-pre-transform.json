@@ -1,454 +1,494 @@
 {
-    "$schema": "https://raw.githubusercontent.com/anthonyjdella/customized-resume-schema/main/schema.json",
-    "basics": {
-      "name": "Anthony Dellavecchia",
-      "label": "Software Engineer and Creative Technologist",
-      "image": "https://www.anthonydellavecchia.com/images/contact/avatar.png",
-      "email": "anthony.dellavecchia.tech@gmail.com",
-      "phone": "(940)242-1288",
-      "url": "https://www.anthonydellavecchia.com",
-      "summary": "5+ years of experience in full-stack software development. Interested in solving technical challenges, mastering data structures & algorithms, software engineering, problem solving, open-source, user experience design, and continuous improvement.",
-      "location": {
-        "countryCode": "US",
-        "address": "Dallas, Texas"
+  "$schema": "https://raw.githubusercontent.com/anthonyjdella/customized-resume-schema/main/schema.json",
+  "basics": {
+    "name": "Anthony Dellavecchia",
+    "label": "Software Engineer and Creative Technologist",
+    "image": "https://www.anthonydellavecchia.com/images/contact/avatar.png",
+    "email": "anthony.dellavecchia.tech@gmail.com",
+    "phone": "(940)242-1288",
+    "url": "https://www.anthonydellavecchia.com",
+    "summary": "5+ years of experience in full-stack software development. Interested in solving technical challenges, mastering data structures & algorithms, software engineering, problem solving, open-source, user experience design, and continuous improvement.",
+    "location": {
+      "countryCode": "US",
+      "address": "Dallas, Texas"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "anthonydellavecchia",
+        "url": "https://www.linkedin.com/in/anthonydellavecchia/"
       },
-      "profiles": [
-        {
-          "network": "LinkedIn",
-          "username": "anthonydellavecchia",
-          "url": "https://www.linkedin.com/in/anthonydellavecchia/"
-        },
-        {
-          "network": "Twitter",
-          "username": "anthonyjdella",
-          "url": "https://twitter.com/anthonyjdella"
-        },
-        {
-          "network": "GitHub",
-          "username": "anthonyjdella",
-          "url": "https://github.com/anthonyjdella"
-        },
-        {
-          "network": "www.AnthonyDellavecchia.com",
-          "username": "Anthony Dellavecchia",
-          "url": "https://www.anthonydellavecchia.com"
-        }
+      {
+        "network": "Twitter",
+        "username": "anthonyjdella",
+        "url": "https://twitter.com/anthonyjdella"
+      },
+      {
+        "network": "GitHub",
+        "username": "anthonyjdella",
+        "url": "https://github.com/anthonyjdella"
+      },
+      {
+        "network": "www.AnthonyDellavecchia.com",
+        "username": "Anthony Dellavecchia",
+        "url": "https://www.anthonydellavecchia.com"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "State Farm ®",
+      "position": "Software Developer 3",
+      "startDate": "2019-07-31",
+      "endDate": "present",
+      "highlights": [],
+      "summary": "Backend: Develop, test, deploy, and maintain business-critical RESTful APIs using Java & Spring Boot framework that serves data and handles 100,000+ requests to our insurance policy platform, to prevent millions in monetary loss.\n\nIntegration Layer: Design and implement a microservice integration layer utilizing Java & Spring Boot to abstract components between our core application and outbound calls to high-impact business data, which help calculate insurance rates.\n\nDevOps: Optimize software release efficiency up to 50% by creating CI/CD pipelines that automatically build, scan, test, and deploy software, which improves time-to-market.\n\nChaos Engineering: Reduce web service unplanned downtime by implementing Chaos Engineering tools to determine potential failure points, which saves time and costs.\n\nAutomation: Perform BDD using Agile methodology by writing automated E2E UI tests in CodeceptJS and Gherkin to quickly and effectively validate business scenarios.\n\nQuality: Provide guidance and leadership to implement best practices and tools for optimizing team productivity, spearhead document creation of solution architecture, and create dashboards & reports for management.",
+      "url": "https://www.linkedin.com/company/state_farm/"
+    },
+    {
+      "name": "State Farm ®",
+      "position": "Software Developer 2",
+      "startDate": "2018-02-28",
+      "endDate": "2019-07-31",
+      "highlights": [],
+      "summary": "State Farm is the largest mutual insurance company in the United States. As of 2019, State Farm is ranked 36th on the list of Fortune 500 companies. \"Like a good neighbor, State Farm is there\".",
+      "url": "https://www.linkedin.com/company/state_farm/"
+    },
+    {
+      "name": "Bank of America",
+      "position": "Applications Programmer - Officer",
+      "startDate": "2018-01-31",
+      "endDate": "2018-02-28",
+      "highlights": [],
+      "summary": "Frontend: Develop a frontend web application written in TypeScript, which manages customer banking appointments and 20,000+ associate schedules.\n\nTroubleshooting: Collaborate with stakeholders and product teams to implement business requirements and resolve technical defects and bugs.\n\nMetrics: Perform analysis on internal hiring data and create weekly reports for senior management to build teams based on skillsets and experience.",
+      "url": "https://www.linkedin.com/company/bank-of-america/"
+    },
+    {
+      "name": "Bank of America",
+      "position": "Applications Programmer",
+      "startDate": "2017-01-31",
+      "endDate": "2018-01-31",
+      "highlights": [],
+      "summary": "Bank of America is an American multinational banking and financial services corporation. It is the second largest bank holding company in the United States by assets. As of 2016, Bank of America is the 26th largest company in the United States by total revenue, and Forbes listed Bank of America as the eleventh largest company in the world.",
+      "url": "https://www.linkedin.com/company/bank-of-america/"
+    },
+    {
+      "name": "GM Financial",
+      "position": "ETL Production Support Intern",
+      "startDate": "2016-08-31",
+      "endDate": "2016-12-31",
+      "highlights": [],
+      "summary": "ETL: Build data mapping transformations using ETL tools to extract, transform, and load data for various data warehouse projects.\n\nDatabase: Execute SQL search queries to filter data subsets needed for staging and transformation.\n\nMonitoring: Schedule, monitor, and configure automatic failure notifications for 700+ ETL workflows in production.",
+      "url": "https://www.linkedin.com/company/gm-financial/"
+    },
+    {
+      "name": "GM Financial",
+      "position": "ETL Developer Intern",
+      "startDate": "2016-06-30",
+      "endDate": "2016-08-31",
+      "highlights": [],
+      "summary": "GM Financial is the finance subsidiary of General Motors and is headquartered in Fort Worth, Texas. Through long-standing relationships with auto dealers, GM Financial offers attractive retail loan and lease programs to meet the needs of each customer. Also, offered are commercial lending products to dealers to help them finance and grow their businesses.",
+      "url": "https://www.linkedin.com/company/gm-financial/"
+    },
+    {
+      "name": "Alpha Kappa Psi",
+      "position": "Professional Development/Program Chairman",
+      "startDate": "2016-05-31",
+      "endDate": "2016-12-31",
+      "highlights": [],
+      "summary": "The Professional Development/Program Chairman, at Alpha Kappa Psi, establishs and promotes worthy professional activities for the benefit of the membership of the Mu Rho chapter and other business students. The position works with both faculty and alumni members to achieve comprehensive professional programs.\n\nPlan, execute, and manage all professional events & developmental workshops with the purpose of positively benefiting attendee's professional skills.\n\nHosted various events such as a LinkedIn workshop for UTD students, a professional photo shoot for members of our organization, a networking event with General Motors Financial, a networking event with PSAV, a networking event with Fisher Investments, and a tour of Dr Pepper Snapple Group.\n\nPropose a specific semester plan for the professional events and promote them through social media outlets such as Facebook.",
+      "url": "https://www.linkedin.com/company/alpha-kappa-psi/"
+    },
+    {
+      "name": "Alpha Kappa Psi",
+      "position": "Technology Chairman",
+      "startDate": "2016-05-31",
+      "endDate": "2016-12-31",
+      "highlights": [],
+      "summary": "Alpha Kappa Psi is the oldest and largest professional business fraternity. With principles to appreciate and demand higher ideals in business and to further the welfare of members, Alpha Kappa Psi promotes educational, friendship, and networking opportunities.\n\nManagement of the Mu Rho Chapter's online presence and website. Includes uploading pictures, and general maintenance/upkeep.\n\nManagement and knowledge of technologies used by the chapter, such as Slack.\n\nAwareness of relevant and modern business technologies.",
+      "url": "https://www.linkedin.com/company/alpha-kappa-psi/"
+    },
+    {
+      "name": "User Experience Club at UT Dallas",
+      "position": "Treasurer",
+      "startDate": "2016-05-31",
+      "endDate": "2016-12-31",
+      "highlights": [],
+      "summary": "The UX Club at UTD strives to increase awareness of and create a community around user-centered design.\n\nOversee club finances, bank account, and develop the semester’s budget plan.\n\nResponsible for all purchases made for or by the UX club.\n\nCommunicate closely with the President and Event Coordinator for feasible budgets for each event.",
+      "url": ""
+    },
+    {
+      "name": "Green Eagle Logistics",
+      "position": "Ecommerce Analyst",
+      "startDate": "2015-07-31",
+      "endDate": "2016-05-31",
+      "highlights": [],
+      "summary": "Green Eagle Logistics provides Asset Recovery and Resource Management through the acquisition, processing and distribution of electronic and industrial equipment.\n\nAssisted in running our online store which has a total product value exceeding $4 million. Increased gross sales from $5,000 to $50,000 per month by implementing new processes and increasing our store volume.\n\nDeveloped logical search trees in a database to create relationships between products.\n\nEnhanced product pages by employing marketing techniques such as photography, videography, and HTML & CSS layouts.",
+      "url": ""
+    },
+    {
+      "name": "Genroku Sushi & Grill",
+      "position": "Server and Host",
+      "startDate": "2013-11-30",
+      "endDate": "2015-11-30",
+      "highlights": [],
+      "summary": "Genroku Sushi & Grill has been serving delicious, authentic Taiwanese and Japanese food for over 15 years.\n\nProcessed customer orders and secured proper payments to contribute to monthly revenue of $90k.\n\nManaged and trained 5 newly hired employees to learn tasks and essential serving skills.\n\nExecuted multiple tasks for 5-7 tables simultaneously, while serving up to 100 customers, to ensure they have a pleasant dining experience.",
+      "url": ""
+    },
+    {
+      "name": "American Sunshine School",
+      "position": "Foreign Language Teacher",
+      "startDate": "2012-07-31",
+      "endDate": "2013-09-30",
+      "highlights": [],
+      "summary": "American Sunshine School is a buxiban, cram school, located in Taiwan. Students attend the school after their elementary classes to remain competitive with peers in a variety of subjects. \n\nTaught and educated 35 kindergarten and elementary school students to learn and  improve English speaking, writing, and grammar.\n\nScheduled and designed lesson plans and course content for 6 classes per week.\n\nPresented material through engaging and creative activities such as songs, plays, stories, and games.",
+      "url": ""
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Tarrant Area Food Bank",
+      "position": "Onsite Food Packaging & Quality Control",
+      "startDate": "2016-07-31",
+      "endDate": "2016-07-31",
+      "summary": "Tarrant Area Food Bank (TAFB) is the primary source of donated food for hunger-relief charities and feeding programs in 13 North Texas counties.\n\nSorted, inspected, and packed over 16,680 lbs of nutritious food for hungry children, families and seniors. \n\nProvided more than 13,900 meals to children, families and seniors in the area.",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/2090821"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Los Angeles",
+      "area": "Engineering Management",
+      "studyType": "Master of Science - MS",
+      "startDate": "2019-12-31",
+      "endDate": "2022-12-31",
+      "score": "3.71 GPA",
+      "courses": [
+        "ENGR 213 - Data and Business Analytics",
+        "ENGR 211 - Financial Management"
       ]
     },
-    "work": [
-      {
-        "name": "State Farm ®",
-        "position": "Software Developer 3",
-        "startDate": "2019-07-31",
-        "endDate": "present",
-        "highlights": [],
-        "summary": "Backend: Develop, test, deploy, and maintain business-critical RESTful APIs using Java & Spring Boot framework that serves data and handles 100,000+ requests to our insurance policy platform, to prevent millions in monetary loss.\n\nIntegration Layer: Design and implement a microservice integration layer utilizing Java & Spring Boot to abstract components between our core application and outbound calls to high-impact business data, which help calculate insurance rates.\n\nDevOps: Optimize software release efficiency up to 50% by creating CI/CD pipelines that automatically build, scan, test, and deploy software, which improves time-to-market.\n\nChaos Engineering: Reduce web service unplanned downtime by implementing Chaos Engineering tools to determine potential failure points, which saves time and costs.\n\nAutomation: Perform BDD using Agile methodology by writing automated E2E UI tests in CodeceptJS and Gherkin to quickly and effectively validate business scenarios.\n\nQuality: Provide guidance and leadership to implement best practices and tools for optimizing team productivity, spearhead document creation of solution architecture, and create dashboards & reports for management.",
-        "url": "https://www.linkedin.com/company/state_farm/"
-      },
-      {
-        "name": "State Farm ®",
-        "position": "Software Developer 2",
-        "startDate": "2018-02-28",
-        "endDate": "2019-07-31",
-        "highlights": [],
-        "summary": "State Farm is the largest mutual insurance company in the United States. As of 2019, State Farm is ranked 36th on the list of Fortune 500 companies. \"Like a good neighbor, State Farm is there\".",
-        "url": "https://www.linkedin.com/company/state_farm/"
-      },
-      {
-        "name": "Bank of America",
-        "position": "Applications Programmer - Officer",
-        "startDate": "2018-01-31",
-        "endDate": "2018-02-28",
-        "highlights": [],
-        "summary": "Frontend: Develop a frontend web application written in TypeScript, which manages customer banking appointments and 20,000+ associate schedules.\n\nTroubleshooting: Collaborate with stakeholders and product teams to implement business requirements and resolve technical defects and bugs.\n\nMetrics: Perform analysis on internal hiring data and create weekly reports for senior management to build teams based on skillsets and experience.",
-        "url": "https://www.linkedin.com/company/bank-of-america/"
-      },
-      {
-        "name": "Bank of America",
-        "position": "Applications Programmer",
-        "startDate": "2017-01-31",
-        "endDate": "2018-01-31",
-        "highlights": [],
-        "summary": "Bank of America is an American multinational banking and financial services corporation. It is the second largest bank holding company in the United States by assets. As of 2016, Bank of America is the 26th largest company in the United States by total revenue, and Forbes listed Bank of America as the eleventh largest company in the world.",
-        "url": "https://www.linkedin.com/company/bank-of-america/"
-      },
-      {
-        "name": "GM Financial",
-        "position": "ETL Production Support Intern",
-        "startDate": "2016-08-31",
-        "endDate": "2016-12-31",
-        "highlights": [],
-        "summary": "ETL: Build data mapping transformations using ETL tools to extract, transform, and load data for various data warehouse projects.\n\nDatabase: Execute SQL search queries to filter data subsets needed for staging and transformation.\n\nMonitoring: Schedule, monitor, and configure automatic failure notifications for 700+ ETL workflows in production.",
-        "url": "https://www.linkedin.com/company/gm-financial/"
-      },
-      {
-        "name": "GM Financial",
-        "position": "ETL Developer Intern",
-        "startDate": "2016-06-30",
-        "endDate": "2016-08-31",
-        "highlights": [],
-        "summary": "GM Financial is the finance subsidiary of General Motors and is headquartered in Fort Worth, Texas. Through long-standing relationships with auto dealers, GM Financial offers attractive retail loan and lease programs to meet the needs of each customer. Also, offered are commercial lending products to dealers to help them finance and grow their businesses.",
-        "url": "https://www.linkedin.com/company/gm-financial/"
-      },
-      {
-        "name": "Alpha Kappa Psi",
-        "position": "Professional Development/Program Chairman",
-        "startDate": "2016-05-31",
-        "endDate": "2016-12-31",
-        "highlights": [],
-        "summary": "The Professional Development/Program Chairman, at Alpha Kappa Psi, establishs and promotes worthy professional activities for the benefit of the membership of the Mu Rho chapter and other business students. The position works with both faculty and alumni members to achieve comprehensive professional programs.\n\nPlan, execute, and manage all professional events & developmental workshops with the purpose of positively benefiting attendee's professional skills.\n\nHosted various events such as a LinkedIn workshop for UTD students, a professional photo shoot for members of our organization, a networking event with General Motors Financial, a networking event with PSAV, a networking event with Fisher Investments, and a tour of Dr Pepper Snapple Group.\n\nPropose a specific semester plan for the professional events and promote them through social media outlets such as Facebook.",
-        "url": "https://www.linkedin.com/company/alpha-kappa-psi/"
-      },
-      {
-        "name": "Alpha Kappa Psi",
-        "position": "Technology Chairman",
-        "startDate": "2016-05-31",
-        "endDate": "2016-12-31",
-        "highlights": [],
-        "summary": "Alpha Kappa Psi is the oldest and largest professional business fraternity. With principles to appreciate and demand higher ideals in business and to further the welfare of members, Alpha Kappa Psi promotes educational, friendship, and networking opportunities.\n\nManagement of the Mu Rho Chapter's online presence and website. Includes uploading pictures, and general maintenance/upkeep.\n\nManagement and knowledge of technologies used by the chapter, such as Slack.\n\nAwareness of relevant and modern business technologies.",
-        "url": "https://www.linkedin.com/company/alpha-kappa-psi/"
-      },
-      {
-        "name": "User Experience Club at UT Dallas",
-        "position": "Treasurer",
-        "startDate": "2016-05-31",
-        "endDate": "2016-12-31",
-        "highlights": [],
-        "summary": "The UX Club at UTD strives to increase awareness of and create a community around user-centered design.\n\nOversee club finances, bank account, and develop the semester’s budget plan.\n\nResponsible for all purchases made for or by the UX club.\n\nCommunicate closely with the President and Event Coordinator for feasible budgets for each event.",
-        "url": ""
-      },
-      {
-        "name": "Green Eagle Logistics",
-        "position": "Ecommerce Analyst",
-        "startDate": "2015-07-31",
-        "endDate": "2016-05-31",
-        "highlights": [],
-        "summary": "Green Eagle Logistics provides Asset Recovery and Resource Management through the acquisition, processing and distribution of electronic and industrial equipment.\n\nAssisted in running our online store which has a total product value exceeding $4 million. Increased gross sales from $5,000 to $50,000 per month by implementing new processes and increasing our store volume.\n\nDeveloped logical search trees in a database to create relationships between products.\n\nEnhanced product pages by employing marketing techniques such as photography, videography, and HTML & CSS layouts.",
-        "url": ""
-      },
-      {
-        "name": "Genroku Sushi & Grill",
-        "position": "Server and Host",
-        "startDate": "2013-11-30",
-        "endDate": "2015-11-30",
-        "highlights": [],
-        "summary": "Genroku Sushi & Grill has been serving delicious, authentic Taiwanese and Japanese food for over 15 years.\n\nProcessed customer orders and secured proper payments to contribute to monthly revenue of $90k.\n\nManaged and trained 5 newly hired employees to learn tasks and essential serving skills.\n\nExecuted multiple tasks for 5-7 tables simultaneously, while serving up to 100 customers, to ensure they have a pleasant dining experience.",
-        "url": ""
-      },
-      {
-        "name": "American Sunshine School",
-        "position": "Foreign Language Teacher",
-        "startDate": "2012-07-31",
-        "endDate": "2013-09-30",
-        "highlights": [],
-        "summary": "American Sunshine School is a buxiban, cram school, located in Taiwan. Students attend the school after their elementary classes to remain competitive with peers in a variety of subjects. \n\nTaught and educated 35 kindergarten and elementary school students to learn and  improve English speaking, writing, and grammar.\n\nScheduled and designed lesson plans and course content for 6 classes per week.\n\nPresented material through engaging and creative activities such as songs, plays, stories, and games.",
-        "url": ""
-      }
-    ],
-    "volunteer": [
-      {
-        "organization": "Tarrant Area Food Bank",
-        "position": "Onsite Food Packaging & Quality Control",
-        "startDate": "2016-07-31",
-        "endDate": "2016-07-31",
-        "summary": "Tarrant Area Food Bank (TAFB) is the primary source of donated food for hunger-relief charities and feeding programs in 13 North Texas counties.\n\nSorted, inspected, and packed over 16,680 lbs of nutritious food for hungry children, families and seniors. \n\nProvided more than 13,900 meals to children, families and seniors in the area.",
-        "highlights": [],
-        "url": "https://www.linkedin.com/company/2090821"
-      }
-    ],
-    "education": [
-      {
-        "institution": "University of California, Los Angeles",
-        "area": "Engineering Management",
-        "studyType": "Master of Science - MS",
-        "startDate": "2019-12-31",
-        "endDate": "2022-12-31",
-        "score": "3.71 GPA",
-        "courses": [
-          "ENGR 213 - Data and Business Analytics",
-          "ENGR 211 - Financial Management"
-        ]
-      },
-      {
-        "institution": "The University of Texas at Dallas",
-        "area": "Information Technology and Systems",
-        "studyType": "Bachelor of Science - BS",
-        "startDate": "2014-12-31",
-        "endDate": "2016-12-31",
-        "score": "Cum Laude, 3.66 GPA",
-        "courses": [
-          "BCOM 4350 - Advanced Business Communication",
-          "FIN 3320 - Business Finance",
-          "ITSS 4V95 - Advanced Database Management",
-          "MATH 1325 - Applied Calculus 1",
-          "BCOM 3310 - Business Communication",
-          "MATH 1326 - Applied Calculus 2",
-          "MIS 4300 - Database Fundamentals",
-          "ITSS 4353 - Business Analytics"
-        ]
-      },
-      {
-        "institution": "The University of Texas at Austin",
-        "area": "Economics",
-        "studyType": "Bachelor of Arts - BA",
-        "startDate": "",
-        "endDate": "",
-        "score": "",
-        "courses": []
-      }
-    ],
-    "awards": [
-      {
-        "title": "Cum Laude Honors",
-        "date": "2016-12-31",
-        "awarder": "The University of Texas at Dallas",
-        "summary": "Awarded to students with a GPA between 3.533 and 3.72, which also represents the top 15 percent of students, in Naveen Jindal School of Management."
-      },
-      {
-        "title": "Dean's List",
-        "date": "2014-12-31",
-        "awarder": "University of Texas at Dallas",
-        "summary": "Achieved a 4.0 GPA during the semester. This award is for students with a GPA among the Top 10% in the Naveen Jindal School of Management.\n"
-      },
-      {
-        "title": "Comet Scholarship",
-        "date": "2014-09-30",
-        "awarder": "UT Dallas",
-        "summary": "University scholarship awarded to select transfer students."
-      }
-    ],
-    "certificates": [],
-    "publications": [],
-    "leadership": [],
-    "skills": [
-      {
-        "name": "Leadership",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Public Speaking",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Problem Solving",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "User Experience",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "State Farm ®",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Detail Oriented",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Organization",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Java",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Data Analysis",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Databases",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Professionalism",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Web Development",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Team Leadership",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Business Intelligence",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Teamwork",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Data Warehousing",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Communication",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Time Management",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "SQL",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Informatica",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Data Visualization",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Data Architecture",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Unix",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Project Management",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "User Interface Design",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Data Integration",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Data Mining",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Management",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "ETL",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Customer Service",
-        "level": "",
-        "keywords": []
-      }
-    ],
-    "languages": [
-      {
-        "language": "en",
-        "fluency": "Native Speaker"
-      }
-    ],
-    "interests": [],
-    "references": [
-      {
-        "name": "Britten Burchardt",
-        "reference": "Anthony is not only an eager and detail oriented co-worker but also an inspiring professional. Anthony was a fantastic person to work with. Anthony is a forward thinking natural leader that cannot be overestimated. Efficient, highly motivated, self motivated and strong team player with a great skill to analyze and summarize ideas. His high expertise and leadership and his straight-to-problems way of thinking makes Anthony view solutions instead of problems. For Anthony the job is always the most important thing to do. "
-      }
-    ],
-    "projects": [
-      {
-        "name": "JSON Resume using LinkedIn",
-        "startDate": "",
-        "summary": "Customized a chrome extension to parse data from a LinkedIn profile, generate a custom JSON file, and build an online resume (hosted on Firebase).",
-        "url": "https://github.com/anthonyjdella/customized-linkedin-to-jsonresume"
-      },
-      {
-        "name": "www.AnthonyDellavecchia.com",
-        "startDate": "",
-        "summary": "Developed a website using a static-site generator, Hugo, and a custom domain name for my personal brand. It's deployed using GitHub Pages and Netlify.",
-        "url": "https://www.anthonydellavecchia.com"
-      },
-      {
-        "name": "Automated Job Scraping",
-        "startDate": "",
-        "summary": "Developed a server-side script with Node.js that automatically searches and scrapes data of job postings from select company websites, then sends a notification to the user.",
-        "url": "https://github.com/anthonyjdella/automated-job-web-scraping"
-      },
-      {
-        "name": "Data Science Competition - Capgemini",
-        "startDate": "",
-        "summary": "Fall 2016 Data Science Competition for undergraduate students majoring in ITS. The theme of the competition is analytics in the oil and gas industry. For this competition, we analyzed energy sector data and present the resulting insights. The top four teams were recognized and the winning team will be awarded $3,000 in cash prizes sponsored by Capgemini. Our team was a finalist! Our data included 60,000 records and 26 columns. \n\nI created and designed a user interface using Python in Jupyter notebook. The interface was our front-end guide for our clients. It included tabs and buttons to access our various topics and download links. \n\nI used logistic regression (GLM) from the Panda package in Python for data wrangling and modeling.\n\nI made a short film that introduces our team to our clients.",
-        "url": null
-      },
-      {
-        "name": "Deals on Wheels",
-        "startDate": "",
-        "summary": "Deals on Wheels is a car rental company with abundant customer data. This project was for a database management class.\n\nOur team responsibilities:\n\nUsed SQL statements to convert logical database models into database objects.\n\nInserted rows of data into each table, making use of proper naming conventions, datatype declaration, and use of constraints.\n\nProgrammed in SQL by writing statements that will provide the data requested.\n\nIdentified potential security threats.\n\nCreated a stored procedure, trigger, and view for the database.",
-        "url": null
-      },
-      {
-        "name": "Organizational Behavior of The Pub",
-        "startDate": "",
-        "summary": "Observed and analyzed the organizational behavior of employees at The Pub, an on campus dining restaurant at the University of Texas at Dallas. Our team collected data by conducting surveys, interviews, and questionares which we used to analyze the underlying behavior of the organization. Our analysis was on the team characteristics, leadership, satisfaction and stress levels, as well as recommendations for The Pub to improve upon. We also presented our findings to the class with a 15 minute Prezi presentation.",
-        "url": null
-      },
-      {
-        "name": "Rate My Mechanic",
-        "startDate": "",
-        "summary": "Rate My Mechanic is a mobile web application designed to help users find the right mechanic, at the right time, and in the right place. This project was for a mobile web app development class.\n\nResponsibilities of the project:\n\nPlanned, implemented, designed, and deployed a mobile web application.\n\nCreated a front end system using HTML5, CSS3, JavaScript, and JQuery then use PHP connect the back end database.",
-        "url": null
-      },
-      {
-        "name": "A Little Help",
-        "startDate": "",
-        "summary": "Created a business proposal as Big Brothers Big Sisters of America, to raise a substantial amount of funding with the intent of positively benefiting at-risk children in Dallas County. Our team identified a problem with at-risk children in Dallas, proposed \"A Little Help\" program to match mentors with mentees, developed a marketing strategy to execute the project, and planned a budget for the proposal to the Dallas Chamber of Commerce.",
-        "url": null
-      },
-      {
-        "name": "Build Your Own Box",
-        "startDate": "",
-        "summary": "Created a product proposal using marketing techniques such as a SWOT analysis, marketing mix, marketing objectives, and target markets. Our team wrote a 20 page paper about the proposal as well as a 5 year financial projection, and design of advertisements and product mock-ups.",
-        "url": null
-      },
-      {
-        "name": "Management Information System Cases",
-        "startDate": "",
-        "summary": "Given various cases studies for an intro to management information systems class.\n\nMy responsibilities included:\n\nEvaluating the overall net present value for multiple projects.\n\nAnalyzing the economic feasibility of replacing existing applications with SAP.\n\nOrganizing and recording cost-benefits data in Microsoft Excel.\n\nProposing a plan for implementing a discount rate value to achieve profits.\n\nPresenting graphics for multiple break-even charts",
-        "url": null
-      }
-    ],
-    "meta": {
-      "version": "v1.0.0",
-      "canonical": "https://github.com/anthonyjdella/customized-resume-schema/blob/main/schema.json"
+    {
+      "institution": "The University of Texas at Dallas",
+      "area": "Information Technology and Systems",
+      "studyType": "Bachelor of Science - BS",
+      "startDate": "2014-12-31",
+      "endDate": "2016-12-31",
+      "score": "Cum Laude, 3.66 GPA",
+      "courses": [
+        "BCOM 4350 - Advanced Business Communication",
+        "FIN 3320 - Business Finance",
+        "ITSS 4V95 - Advanced Database Management",
+        "MATH 1325 - Applied Calculus 1",
+        "BCOM 3310 - Business Communication",
+        "MATH 1326 - Applied Calculus 2",
+        "MIS 4300 - Database Fundamentals",
+        "ITSS 4353 - Business Analytics"
+      ]
+    },
+    {
+      "institution": "The University of Texas at Austin",
+      "area": "Economics",
+      "studyType": "Bachelor of Arts - BA",
+      "startDate": "",
+      "endDate": "",
+      "score": "",
+      "courses": []
     }
+  ],
+  "awards": [
+    {
+      "title": "Cum Laude Honors",
+      "date": "2016-12-31",
+      "awarder": "The University of Texas at Dallas",
+      "summary": "Awarded to students with a GPA between 3.533 and 3.72, which also represents the top 15 percent of students, in Naveen Jindal School of Management."
+    },
+    {
+      "title": "Dean's List",
+      "date": "2014-12-31",
+      "awarder": "University of Texas at Dallas",
+      "summary": "Achieved a 4.0 GPA during the semester. This award is for students with a GPA among the Top 10% in the Naveen Jindal School of Management.\n"
+    },
+    {
+      "title": "Comet Scholarship",
+      "date": "2014-09-30",
+      "awarder": "UT Dallas",
+      "summary": "University scholarship awarded to select transfer students."
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "leadership": [],
+  "skills": [
+    {
+      "name": "Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Public Speaking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Problem Solving",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Structures",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "State Farm ®",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Detail Oriented",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CI/CD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Organization",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Algorithms",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "User Experience",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spring Boot",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Professionalism",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Team Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Business Intelligence",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "System Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Teamwork",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Warehousing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Time Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Object-Oriented Programming (OOP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Informatica",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Visualization",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Architecture",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Unix",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Project Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "User Interface Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Integration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Mining",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ETL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Customer Service",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "en",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Britten Burchardt",
+      "reference": "Anthony is not only an eager and detail oriented co-worker but also an inspiring professional. Anthony was a fantastic person to work with. Anthony is a forward thinking natural leader that cannot be overestimated. Efficient, highly motivated, self motivated and strong team player with a great skill to analyze and summarize ideas. His high expertise and leadership and his straight-to-problems way of thinking makes Anthony view solutions instead of problems. For Anthony the job is always the most important thing to do. "
+    }
+  ],
+  "projects": [
+    {
+      "name": "JSON Resume using LinkedIn",
+      "startDate": "",
+      "summary": "Customized a chrome extension to parse data from a LinkedIn profile, generate a custom JSON file, and build an online resume (hosted on Firebase).",
+      "url": "https://github.com/anthonyjdella/customized-linkedin-to-jsonresume"
+    },
+    {
+      "name": "www.AnthonyDellavecchia.com",
+      "startDate": "",
+      "summary": "Developed a website using a static-site generator, Hugo, and a custom domain name for my personal brand. It's deployed using GitHub Pages and Netlify.",
+      "url": "https://www.anthonydellavecchia.com"
+    },
+    {
+      "name": "Automated Job Scraping",
+      "startDate": "",
+      "summary": "Developed a server-side script with Node.js that automatically searches and scrapes data of job postings from select company websites, then sends a notification to the user.",
+      "url": "https://github.com/anthonyjdella/automated-job-web-scraping"
+    },
+    {
+      "name": "Data Science Competition - Capgemini",
+      "startDate": "",
+      "summary": "Fall 2016 Data Science Competition for undergraduate students majoring in ITS. The theme of the competition is analytics in the oil and gas industry. For this competition, we analyzed energy sector data and present the resulting insights. The top four teams were recognized and the winning team will be awarded $3,000 in cash prizes sponsored by Capgemini. Our team was a finalist! Our data included 60,000 records and 26 columns. \n\nI created and designed a user interface using Python in Jupyter notebook. The interface was our front-end guide for our clients. It included tabs and buttons to access our various topics and download links. \n\nI used logistic regression (GLM) from the Panda package in Python for data wrangling and modeling.\n\nI made a short film that introduces our team to our clients.",
+      "url": null
+    },
+    {
+      "name": "Deals on Wheels",
+      "startDate": "",
+      "summary": "Deals on Wheels is a car rental company with abundant customer data. This project was for a database management class.\n\nOur team responsibilities:\n\nUsed SQL statements to convert logical database models into database objects.\n\nInserted rows of data into each table, making use of proper naming conventions, datatype declaration, and use of constraints.\n\nProgrammed in SQL by writing statements that will provide the data requested.\n\nIdentified potential security threats.\n\nCreated a stored procedure, trigger, and view for the database.",
+      "url": null
+    },
+    {
+      "name": "Organizational Behavior of The Pub",
+      "startDate": "",
+      "summary": "Observed and analyzed the organizational behavior of employees at The Pub, an on campus dining restaurant at the University of Texas at Dallas. Our team collected data by conducting surveys, interviews, and questionares which we used to analyze the underlying behavior of the organization. Our analysis was on the team characteristics, leadership, satisfaction and stress levels, as well as recommendations for The Pub to improve upon. We also presented our findings to the class with a 15 minute Prezi presentation.",
+      "url": null
+    },
+    {
+      "name": "Rate My Mechanic",
+      "startDate": "",
+      "summary": "Rate My Mechanic is a mobile web application designed to help users find the right mechanic, at the right time, and in the right place. This project was for a mobile web app development class.\n\nResponsibilities of the project:\n\nPlanned, implemented, designed, and deployed a mobile web application.\n\nCreated a front end system using HTML5, CSS3, JavaScript, and JQuery then use PHP connect the back end database.",
+      "url": null
+    },
+    {
+      "name": "A Little Help",
+      "startDate": "",
+      "summary": "Created a business proposal as Big Brothers Big Sisters of America, to raise a substantial amount of funding with the intent of positively benefiting at-risk children in Dallas County. Our team identified a problem with at-risk children in Dallas, proposed \"A Little Help\" program to match mentors with mentees, developed a marketing strategy to execute the project, and planned a budget for the proposal to the Dallas Chamber of Commerce.",
+      "url": null
+    },
+    {
+      "name": "Build Your Own Box",
+      "startDate": "",
+      "summary": "Created a product proposal using marketing techniques such as a SWOT analysis, marketing mix, marketing objectives, and target markets. Our team wrote a 20 page paper about the proposal as well as a 5 year financial projection, and design of advertisements and product mock-ups.",
+      "url": null
+    },
+    {
+      "name": "Management Information System Cases",
+      "startDate": "",
+      "summary": "Given various cases studies for an intro to management information systems class.\n\nMy responsibilities included:\n\nEvaluating the overall net present value for multiple projects.\n\nAnalyzing the economic feasibility of replacing existing applications with SAP.\n\nOrganizing and recording cost-benefits data in Microsoft Excel.\n\nProposing a plan for implementing a discount rate value to achieve profits.\n\nPresenting graphics for multiple break-even charts",
+      "url": null
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/anthonyjdella/customized-resume-schema/blob/main/schema.json"
   }
+}
