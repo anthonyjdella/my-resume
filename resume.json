@@ -33,7 +33,7 @@
   "work": [
       {
           "name": "State Farm \u00ae",
-          "position": "Software Developer 3",
+          "position": "Software Developer",
           "startDate": "2018-02-28",
           "endDate": "present",
           "highlights": [
@@ -44,13 +44,13 @@
               "Automation: Perform BDD using Agile methodology by writing automated E2E UI tests in CodeceptJS and Gherkin to quickly and effectively validate business scenarios.",
               "Quality: Provide guidance and leadership to implement best practices and tools for optimizing team productivity, spearhead document creation of solution architecture, and create dashboards & reports for management."
           ],
-          "summary": "Backend: Develop, test, deploy, and maintain business-critical RESTful APIs using Java & Spring Boot framework that serves data and handles 100,000+ requests to our insurance policy platform, to prevent millions in monetary loss.\n\nIntegration Layer: Design and implement a microservice integration layer utilizing Java & Spring Boot to abstract components between our core application and outbound calls to high-impact business data, which help calculate insurance rates.\n\nDevOps: Optimize software release efficiency up to 50% by creating CI/CD pipelines that automatically build, scan, test, and deploy software, which improves time-to-market.\n\nChaos Engineering: Reduce web service unplanned downtime by implementing Chaos Engineering tools to determine potential failure points, which saves time and costs.\n\nAutomation: Perform BDD using Agile methodology by writing automated E2E UI tests in CodeceptJS and Gherkin to quickly and effectively validate business scenarios.\n\nQuality: Provide guidance and leadership to implement best practices and tools for optimizing team productivity, spearhead document creation of solution architecture, and create dashboards & reports for management.",
+          "summary": "",
           "url": "https://www.linkedin.com/company/state_farm/",
           "location": "Dallas, TX"
       },
       {
           "name": "Bank of America",
-          "position": "Applications Programmer - Officer",
+          "position": "Applications Programmer",
           "startDate": "2017-01-31",
           "endDate": "2018-02-28",
           "highlights": [
@@ -58,13 +58,13 @@
               "Troubleshooting: Collaborate with stakeholders and product teams to implement business requirements and resolve technical defects and bugs.",
               "Metrics: Perform analysis on internal hiring data and create weekly reports for senior management to build teams based on skillsets and experience."
           ],
-          "summary": "Frontend: Develop a frontend web application written in TypeScript, which manages customer banking appointments and 20,000+ associate schedules.\n\nTroubleshooting: Collaborate with stakeholders and product teams to implement business requirements and resolve technical defects and bugs.\n\nMetrics: Perform analysis on internal hiring data and create weekly reports for senior management to build teams based on skillsets and experience.",
+          "summary": "",
           "url": "https://www.linkedin.com/company/bank-of-america/",
           "location": "Dallas, TX"
       },
       {
           "name": "GM Financial",
-          "position": "ETL Production Support Intern",
+          "position": "ETL Developer Intern",
           "startDate": "2016-06-30",
           "endDate": "2016-12-31",
           "highlights": [
@@ -72,7 +72,7 @@
               "Database: Execute SQL search queries to filter data subsets needed for staging and transformation.",
               "Monitoring: Schedule, monitor, and configure automatic failure notifications for 700+ ETL workflows in production."
           ],
-          "summary": "ETL: Build data mapping transformations using ETL tools to extract, transform, and load data for various data warehouse projects.\n\nDatabase: Execute SQL search queries to filter data subsets needed for staging and transformation.\n\nMonitoring: Schedule, monitor, and configure automatic failure notifications for 700+ ETL workflows in production.",
+          "summary": "",
           "url": "https://www.linkedin.com/company/gm-financial/",
           "location": "Dallas, TX"
       }
@@ -82,7 +82,7 @@
       {
           "institution": "University of California, Los Angeles",
           "area": "Engineering Management",
-          "studyType": "Master of Science - MS",
+          "studyType": "Master of Science",
           "startDate": "2019-12-31",
           "endDate": "2022-12-31",
           "score": "3.71 GPA"
@@ -90,7 +90,7 @@
       {
           "institution": "The University of Texas at Dallas",
           "area": "Information Technology and Systems",
-          "studyType": "Bachelor of Science - BS",
+          "studyType": "Bachelor of Science",
           "startDate": "2014-12-31",
           "endDate": "2016-12-31",
           "score": "Cum Laude, 3.66 GPA"
@@ -119,7 +119,45 @@
   "certificates": [],
   "publications": [],
   "leadership": [],
-  "skills": [],
+  "skills": [
+      {
+          "name": "Current Experience",
+          "level": "",
+          "keywords": [
+              "Java",
+              "Python",
+              "Git",
+              "Gitlab CI/CD",
+              "Spring Boot",
+              "JUnit",
+              "Cucumber",
+              "Unix"
+          ]
+      },
+      {
+          "name": "Prior Experience",
+          "level": "",
+          "keywords": [
+              "Node.js",
+              "JavaScript",
+              "HTML",
+              "CSS",
+              "ETL",
+              "SQL",
+              "UI/UX Design"
+          ]
+      },
+      {
+          "name": "Engineering",
+          "level": "",
+          "keywords": [
+              "Data Structures",
+              "Algorithms",
+              "Systems Design",
+              "Agile SDLC"
+          ]
+      }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
@@ -127,7 +165,7 @@
       {
           "name": "JSON Resume using LinkedIn",
           "startDate": "",
-          "summary": "Customized a chrome extension to parse data from a LinkedIn profile, generate a custom JSON file, and build an online resume (hosted on Firebase).",
+          "summary": "Customized a chrome extension to parse data from a LinkedIn profile, generate a custom JSON file, transform the data using a Python script, and build an online resume (hosted on Firebase).",
           "url": "https://github.com/anthonyjdella/customized-linkedin-to-jsonresume"
       },
       {
