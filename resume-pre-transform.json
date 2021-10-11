@@ -74,7 +74,7 @@
     },
     {
       "name": "GM Financial",
-      "position": "ETL Production Support Intern",
+      "position": "ETL Developer Intern",
       "startDate": "2016-08-31",
       "endDate": "2016-12-31",
       "highlights": [],
@@ -160,7 +160,7 @@
     {
       "institution": "University of California, Los Angeles",
       "area": "Engineering Management",
-      "studyType": "Master of Science - MS",
+      "studyType": "Master of Science",
       "startDate": "2019-12-31",
       "endDate": "2022-12-31",
       "score": "3.71 GPA",
@@ -172,7 +172,7 @@
     {
       "institution": "The University of Texas at Dallas",
       "area": "Information Technology and Systems",
-      "studyType": "Bachelor of Science - BS",
+      "studyType": "Bachelor of Science",
       "startDate": "2014-12-31",
       "endDate": "2016-12-31",
       "score": "Cum Laude, 3.66 GPA",
@@ -429,7 +429,7 @@
     {
       "name": "JSON Resume using LinkedIn",
       "startDate": "",
-      "summary": "Customized a chrome extension to parse data from a LinkedIn profile, generate a custom JSON file, and build an online resume (hosted on Firebase).",
+      "summary": "Customized a chrome extension to parse data from a LinkedIn profile, generate a custom JSON file, transform the data using a Python script, and build an online resume (hosted on Firebase).",
       "url": "https://github.com/anthonyjdella/customized-linkedin-to-jsonresume"
     },
     {

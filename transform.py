@@ -24,7 +24,7 @@ with open('resume-pre-transform.json') as json_data:
         data['volunteer'].remove(item)
 
     for skill in data['skills'][:]:
-            data['skills'].remove(skill)
+        data['skills'].remove(skill)
 
     for job in reversed(data['work'][:]):
         if (job['name'] not in {'State Farm ®', 
@@ -34,15 +34,15 @@ with open('resume-pre-transform.json') as json_data:
         else:
             job['location'] = 'Dallas, TX'
 
-    startDate = ''
+    start_date = ''
     highlights = {}
 
     for i, job in enumerate(reversed(data['work'][:])):
         if (i % 2 == 0):
-            startDate = job['startDate']
+            start_date = job['startDate']
             data['work'].remove(job)
         else:
-            job['startDate'] = startDate
+            job['startDate'] = start_date
             highlights[i] = job['summary']
             job['summary'] = ''
 
@@ -68,5 +68,14 @@ with open('resume-pre-transform.json') as json_data:
     data['basics']['website'] = data['basics'].pop('url')
     # Delete website from json
     data['basics']['profiles'].pop(3)
+
+    tools = ['Git', 'Zsh', 'IntelliJ', 'VS Code']
+    skill_tools = {'name': 'Tools', 'level': '', 'keywords': tools}
+
+    programming = ['Java', 'Python']
+    skill_programming = {'name': 'Programming', 'level': '', 'keywords': programming}
+    
+    data['skills'].append(skill_programming)
+    data['skills'].append(skill_tools)
 
     print(json.dumps(data, indent=4))
