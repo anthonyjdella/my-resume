@@ -68,17 +68,18 @@ with open('resume-pre-transform.json') as json_data:
 
     # Change element name from url to website
     data['basics']['website'] = data['basics'].pop('url')
-    # Delete website from json
-    data['basics']['profiles'].pop(3)
+    data['basics']['website'] = 'https://www.anthonydellavecchia.com'
 
-    current = ['Java', 'Python', 'Git', 'Gitlab CI/CD', 'Spring Boot', 'JUnit', 'Cucumber', 'Unix']
+    data['basics']['image'] = 'https://www.anthonydellavecchia.com/images/contact/avatar2.png'
+
+    current = ['Java', 'Python', 'Git', 'CI/CD', 'Spring Boot', 'JUnit', 'Cucumber', 'Unix']
     skill_current = {'name': 'Current Experience', 'level': '', 'keywords': current}
 
     prior = ['Node.js', 'JavaScript', 'HTML', 'CSS', 'ETL', 'SQL', 'UI/UX Design']
     skill_prior = {'name': 'Prior Experience', 'level': '', 'keywords': prior}
 
-    tools = ['Git', 'Zsh', 'IntelliJ', 'VS Code']
-    skill_tools = {'name': 'Tools', 'level': '', 'keywords': tools}
+    # tools = ['Git', 'Zsh', 'IntelliJ', 'VS Code']
+    # skill_tools = {'name': 'Tools', 'level': '', 'keywords': tools}
 
     engineering = ['Data Structures', 'Algorithms', 'Systems Design', 'Agile SDLC']
     skill_engineering = {'name': 'Engineering', 'level': '', 'keywords': engineering}
@@ -87,5 +88,7 @@ with open('resume-pre-transform.json') as json_data:
     data['skills'].append(skill_prior)
     # data['skills'].append(skill_tools)
     data['skills'].append(skill_engineering)
+
+    data['meta'].update({'theme': 'caffeine'})
 
     print(json.dumps(data, indent=4))
