@@ -3,9 +3,9 @@
   "basics": {
     "name": "Anthony Dellavecchia",
     "label": "Software Engineer and Creative Technologist",
-    "image": "https://www.anthonydellavecchia.com/images/contact/avatar.png",
+    "image": "",
     "email": "anthony.dellavecchia.tech@gmail.com",
-    "phone": "(940)242-1288",
+    "phone": "(940) 242-1288",
     "url": "https://www.anthonydellavecchia.com",
     "summary": "5+ years of experience in full-stack software development. Interested in solving technical challenges, mastering data structures & algorithms, software engineering, problem solving, open-source, user experience design, and continuous improvement.",
     "location": {
@@ -27,11 +27,6 @@
         "network": "GitHub",
         "username": "anthonyjdella",
         "url": "https://github.com/anthonyjdella"
-      },
-      {
-        "network": "www.AnthonyDellavecchia.com",
-        "username": "Anthony Dellavecchia",
-        "url": "https://www.anthonydellavecchia.com"
       }
     ]
   },
@@ -207,13 +202,13 @@
     {
       "title": "Dean's List",
       "date": "2014-12-31",
-      "awarder": "University of Texas at Dallas",
+      "awarder": "The University of Texas at Dallas",
       "summary": "Achieved a 4.0 GPA during the semester. This award is for students with a GPA among the Top 10% in the Naveen Jindal School of Management.\n"
     },
     {
       "title": "Comet Scholarship",
       "date": "2014-09-30",
-      "awarder": "UT Dallas",
+      "awarder": "The University of Texas at Dallas",
       "summary": "University scholarship awarded to select transfer students."
     }
   ],
@@ -429,13 +424,13 @@
     {
       "name": "JSON Resume using LinkedIn",
       "startDate": "",
-      "summary": "Customized a chrome extension to parse data from a LinkedIn profile, generate a custom JSON file, transform the data using a Python script, and build an online resume (hosted on Firebase).",
+      "summary": "Customized a chrome extension to parse data from a LinkedIn profile, generate a custom JSON file, transform the data using a Python script, and build an online resume (hosted on Firebase). Developed and packaged multiple themes on NPM and GitHub Registry. Also created a subdomain name to point to this Firebase function.",
       "url": "https://github.com/anthonyjdella/customized-linkedin-to-jsonresume"
     },
     {
       "name": "www.AnthonyDellavecchia.com",
       "startDate": "",
-      "summary": "Developed a website using a static-site generator, Hugo, and a custom domain name for my personal brand. It's deployed using GitHub Pages and Netlify.",
+      "summary": "Developed a website using a static-site generator, Hugo, and a custom domain name for my personal brand. It's deployed and hosted on Firebase & GitHub. It's integrated with my JSON resume project, so you can select a theme and view my resume.",
       "url": "https://www.anthonydellavecchia.com"
     },
     {
